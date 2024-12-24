@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# From devcontainer common-utils!
 function __bash_prompt {
     local userpart='`export XIT=$? \
         && [ ! -z "${GITHUB_USER:-}" ] && echo -n "\[\033[0;32m\]@${GITHUB_USER:-} " || echo -n "\[\033[0;32m\]\u " \
